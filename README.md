@@ -1,2 +1,5 @@
 # Sowing-map
 这是一个左右循环轮播插件
+fabc34b86107300234f8c1e244bc46df91623a70  第一次提交
+275fdc789fff20dd341e64d3561f278aeb5d2b4f  不带参数的轮播插件
+1b535c4ef8f8ba946092ce451f14edc43e2730f5  带参数的

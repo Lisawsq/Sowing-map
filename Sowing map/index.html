@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="box">
+    <div class="box one">
         <section class="slide-prev">prev</section>
         <section class="slide-next">next</section>
         <ul>
@@ -38,7 +38,7 @@
         </ul>
     </div>
 
-    <div class="box">
+    <div class="box" id="two">
         <section class="slide-prev">prev</section>
         <section class="slide-next">next</section>
         <ul>
@@ -68,7 +68,11 @@
     <script src="./js/jquery-3.1.1.js"></script>
     <script src="./js/jQuery-slide.js"></script>
     <script>
-        $('.box').WSQSlide({speed:1000});
+        // $('.box').WSQSlide({speed:1000}).css('background-color','white');
+        // 制造两个不同的轮播
+        $('.one').WSQSlide({delay:2000,speed:3000}).css('background-color','green');
+        $('#two').WSQSlide({speed:1000}).css('background-color','white');
+
     </script>
 </body>
 
